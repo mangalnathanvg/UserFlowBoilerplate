@@ -1,0 +1,9 @@
+### GET request to example server
+GET http://localhost:3000/api/v1/health
+
+###
+
+
+### GET request with authorization to get session
+GET http://localhost:3000/api/v1/session
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsImlhdCI6MTcyMjg5ODIzOH0.tSspf5g6HGvLN7DTClbRHu3dPclqcvpswnD4lm9aK8I

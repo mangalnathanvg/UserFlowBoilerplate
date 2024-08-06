@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "sourceMap": true,
+    "rootDir": ".",
+    "noImplicitAny": false,
+    "module": "commonjs",
+    "target": "es6",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "typeRoots": ["node_modules/@types", "src/@types"],
+    "skipLibCheck": true,
+    "baseUrl": "./",
+    "paths": {
+      "src/*": ["src/*"]
+    }
+  },
+  "allowSyntheticDefaultImports": true,
+  "include": ["src/**/*", "../../knexfile.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
